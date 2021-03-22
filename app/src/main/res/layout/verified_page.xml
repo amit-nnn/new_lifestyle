@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Conform password"
+        app:navigationIcon="@drawable/ic_left_arrow"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/auth_png"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter a new password"
+        android:gravity="center"
+        android:textSize="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_16sdp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_margin="@dimen/_16sdp"
+        android:hint="Password"
+        android:background="@drawable/input_field"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:hint="Conform password"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:background="@drawable/input_field"/>
+    <Button
+        android:layout_width="@dimen/_148sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:text="submit"
+        android:background="@drawable/button"
+        android:layout_margin="@dimen/_16sdp"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

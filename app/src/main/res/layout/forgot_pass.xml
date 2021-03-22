@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Forgot password"
+        app:navigationIcon="@drawable/ic_left_arrow" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_64sdp"
+        android:src="@drawable/forgot_password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your registered email ID/Phone"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:textColor="@color/black"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will send you a verification code to registered \nID/Phone"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="@drawable/input_field"
+        android:layout_margin="@dimen/_16sdp"
+        android:hint="Email/Phone"/>
+    <Button
+        android:layout_width="@dimen/_148sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@drawable/button"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:text="Send"
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"/>
+
+
+</LinearLayout>

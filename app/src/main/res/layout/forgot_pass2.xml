@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_left_arrow"
+        app:title="OTP Verification"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/otp_verification"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the verification code"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:textColor="@color/black"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We have send you a verification code to registered \nID/Phone"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"/>
+    //
+    //
+    //
+    //
+    //
+    //
+    //
+    //here add the block you said im unable to do so
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resend"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/_16sdp"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="@dimen/_145sdp"
+        android:layout_height="@dimen/_48sdp"
+        android:background="@drawable/button"
+        android:text="Verify"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:textSize="@dimen/_16sdp"/>
+
+</LinearLayout>
